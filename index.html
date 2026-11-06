@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    
+    <!-- ogp -->
+    <meta property="og:url" content="https://dummy.co.jp">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SAKI IIOKA Portfolio Site">
+    <meta property="og:description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    <meta property="og:site_name" content="SAKI IIOKA Portfolio">
+    <meta property="og:image" content="assets/images/MainVisual2.webp">    
+
+    <!-- favicon apple-touch-icon -->
+    <link rel="shortcut icon" href="assets/images/logo-min.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo-min.webp">
+    <link rel="icon" type="image/webp" href="https://dummy.co.jp/assets/images/logo-min.webp">
+        
+    <title>SAKI IIOKA Portfolio</title>
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/destyle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="main-header" id="mainHeader">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="assets/images/logo.webp" alt="ロゴ">SAKI IIOKA</a></div>
+            <nav class="desktop-nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#works">Works</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <button class="menu-trigger" id="menuTrigger" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="index.html#home" class="menu-item">Home</a>
+            <a href="index.html#works" class="menu-item">Works</a>
+            <a href="index.html#about" class="menu-item">About</a>
+            <a href="index.html#contact" class="menu-item">Contact</a>
+        </div>
+    </nav>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>想いをカタチに。繊細を価値に。</h1>
+                <p>SAKI IIOKA Portfolio Site</p>
+                
+                <div class="scroll-wrapper">
+                    <div class="scroll-line-box">
+                        <div class="scroll-line"></div>
+                    </div>
+                    <p class="scroll-label">SCROLL</p>
+                </div>
+            </div>
+            <canvas id="appleCanvas"></canvas>
+        </section>
+
+        <section id="works" class="works container">
+            <div class="title-wrapper">
+                <h3 class="section-title">Works</h3>
+            </div>
+            <div class="works-grid">
+                <a href="work-detail-1.html" class="work-item">
+                    <img src="assets/images/banner.webp" alt="制作実績1">
+                    <h4>バナー</h4>
+                    <p>Adobe Illustrator</p>
+                </a>
+                <a href="work-detail-4.html" class="work-item">
+                    <img src="assets/images/restaurant.webp" alt="制作実績4">
+                    <h4>LPサイト</h4>
+                    <p>Figma / VS Code (HTML / CSS / JS)</p>
+                </a>
+                <a href="work-detail-5.html" class="work-item">
+                    <img src="assets/images/Compass.webp" alt="制作実績5">
+                    <h4>Webアプリ</h4>
+                    <p>Figma / VS Code (HTML / CSS / JS)</p>
+                </a>
+            </div>
+            <div class="view-more-container">
+                <a href="works.html" class="view-more">view more →</a>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <div class="title-wrapper">
+                <h3 class="section-title">About</h3>
+            </div>
+            <div class="about-cards">
+                <div class="card">
+                    <img src="assets/images/people.svg" alt="" class="card-icon">
+                    <h4>About me</h4>
+                    <p>青森県出身。音声配信にハマっています。</p>
+                </div>
+                <div class="card">
+                    <img src="assets/images/skills.svg" alt="" class="card-icon">
+                    <h4>Skills</h4>
+                    <p>HTML / CSS / JS <br>Figma / Adobeillustrator / AdobePhotoshop</p>
+                </div>
+                <div class="card">
+                    <img src="assets/images/heart.svg" alt="" class="card-icon">
+                    <h4>Stability</h4>
+                    <p>徹底したヒアリングにより、安定した品質と納期を遵守します。</p>
+                </div>
+            </div>
+
+            <div class="profile-flex">
+                <div class="profile-image">
+                    <img src="assets/images/profile-image.webp" alt="SAKI IIOKA">
+                </div>
+                <div class="profile-text">
+                    <h3 class="profile-name">
+                        SAKI IIOKA<span class="profile-name-ja">飯岡 咲季</span>
+                    </h3>
+                    <p class="profile-description">
+                        1999年生まれ。<br>東京都を拠点に、Webクリエイターを目指して活動中です。<br>
+                        「想いをカタチにする」ことを大切に、<br>使いやすく温かみのあるデザインを目指しています。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <div class="title-wrapper">
+                <h3 class="section-title">Contact</h3>
+            </div>
+            <form class="contact-form">
+                <label for="name">お名前</label>
+                <input type="text" id="name" placeholder="山田 太郎">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" placeholder="example@email.com">
+                <label for="message">メッセージ</label>
+                <textarea id="message" rows="5" placeholder="ご相談内容をご記入ください"></textarea>
+                <button type="submit">送信する</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 SAKI IIOKA. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="ページ上部へ戻る">
+        <img src="assets/images/totop.webp" alt="Topへ戻る">
+    </button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    
+    <!-- ogp -->
+    <meta property="og:url" content="https://dummy.co.jp">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SAKI IIOKA Portfolio Site">
+    <meta property="og:description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    <meta property="og:site_name" content="SAKI IIOKA Portfolio">
+    <meta property="og:image" content="assets/images/MainVisual2.webp">    
+
+    <!-- favicon apple-touch-icon -->
+    <link rel="shortcut icon" href="assets/images/logo-min.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo-min.webp">
+    <link rel="icon" type="image/webp" href="https://dummy.co.jp/assets/images/logo-min.webp">
+        
+    <title>心身レポートWebアプリ | SAKI IIOKA Portfolio</title>
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/destyle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="main-header" id="mainHeader">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="assets/images/logo.webp" alt="ロゴ">SAKI IIOKA</a></div>
+            <nav class="desktop-nav">
+                <a href="index.html#home">Home</a>
+                <a href="works.html">Works</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <button class="menu-trigger" id="menuTrigger" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="index.html#home" class="menu-item">Home</a>
+            <a href="works.html" class="menu-item">Works</a>
+            <a href="index.html#about" class="menu-item">About</a>
+            <a href="index.html#contact" class="menu-item">Contact</a>
+        </div>
+    </nav>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main class="page-work-detail container">
+        <section class="work-hero">
+            <div class="work-hero__visual">
+                <img src="assets/images/health_report.webp" alt="心身レポートWebアプリのモックアップ">
+            </div>
+            <div class="work-hero__info">
+                <p class="client-name">自身</p>
+                <h1 class="work-title">心身レポート</h1>
+                <p class="work-category">Webアプリ</p>
+                <p class="work-lead">セルフモニタリングをするために制作したアプリです。</p>
+            
+                <div class="work-link-wrapper">
+                    <a href="https://heather.jobtra-itweb.com/health_report/login.php" target="_blank" rel="noopener" class="btn-site">
+                        WEB APP
+                    </a>
+                    <p>ログイン用メールアドレス：自身で制定<br>
+                    ログイン用パスワード：自身で制定</p>
+                </div>    
+            </div>
+        </section>
+
+        <hr class="detail-divider">
+
+        <section class="work-section">
+
+            <div class="work-row">
+                <div class="work-label">
+                    制作範囲 <span class="label-en">Range</span>
+                </div>
+                <div class="work-content">
+                    <p>ヒアリング / デザイン / コーディング</p>
+                </div>
+            </div>
+            
+            <div class="work-row">
+                <div class="work-label">
+                    使用ツール <span class="label-en">Tool</span>
+                </div>
+                <div class="work-content">
+                    <p>Figma / VS Code (HTML / CSS / JS / PHP)</p>
+                </div>
+            </div>
+            
+            <div class="work-row">
+                <div class="work-label">
+                    制作期間 <span class="label-en">Period</span>
+                </div>
+                <div class="work-content">
+                    <p>1週間</p>
+                </div>
+            </div>     
+            
+            <div class="work-row">
+                <div class="work-label">
+                    サービス設定 <span class="label-en">Premise</span>
+                </div>
+                <div class="work-content">
+                    <ul class="bullet-list">
+                        <li>システム名「心身レポート」。</li>
+                        <li>「心のノイズを可視化する」を掲げ、日々の体調とメンタルの相関関係をシンプルに記録。</li>
+                        <li>PHPとSQLを用いた動的なデータ保存により、自身の状態を客観的に振り返り、自己管理（セルフケア）の質を向上させるツールを提供します。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    ターゲット <span class="label-en">Target</span>
+                </div>
+                <div class="work-content">
+                    <p>日々のストレスや体調の変化を感じつつも、言語化や記録が長続きしない人。<br>
+                    メンタルヘルスに関心があり、特定の出来事と体調の因果関係を分析したい人。<br>
+                    手書きのノートよりも、外出先からスマートフォンで手軽にログを残したい層。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    目的 <span class="label-en">Purpose</span>
+                </div>
+                <div class="work-content">
+                    <p>セルフモニタリングの習慣化：最小限の入力（数値選択と短文）で、負担なく毎日続けられる操作感を提供。<br>
+                    データの資産化：サーバー上に蓄積された過去のレポートを一覧表示することで、自分の「調子の波」を把握し、早期の休息や対策に繋げる。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    情報設計 <span class="label-en">Information</span>
+                </div>
+                <div class="work-content">
+                    <p>直感的な入力フロー：ログイン後、すぐに「今日のレポート」画面が表示され、迷わず入力を開始できる動線を設計。<br>
+                    視認性の高い一覧表示：登録されたデータを日付順にリスト化。過去の「ポジティブ・ネガティブ」な出来事をセットで見返すことで、思考パターンの気づきを促す。<br>
+                    マルチデバイス対応：外出先（スマホ）でも、自宅のPCでも、場所を選ばず入力・閲覧できるレスポンシブな設計を採用。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    デザイン <span class="label-en">Design</span>
+                </div>
+                <div class="work-content">
+                    <p class="font-serif">清潔感があり、心を落ち着かせるヒーリングカラー（淡いブルーやグリーン系）を基調。</p>
+                    
+                    <div class="color-palette">
+                        <div class="color-item" style="background-color: #f0f2f5; color: #333; flex: 2;">#f0f2f5</div>
+                        <div class="color-item" style="background-color: #333333; color: #fff; flex: 1; border: 1px solid #eee;">#333333</div>
+                        <div class="color-item" style="background-color: #007bff; flex: 0.5;"></div>
+                    </div>
+
+                    <p>テキスト入力欄には十分な余白を持たせ、自分の感情をゆったりと書き込める「デジタルな日記帳」のような落ち着いたレイアウトを追求。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    その他 <span class="label-en">Others</span>
+                </div>
+                <div class="work-content">
+                    <p>下に添付した画像は、PCとスマホのデザイン完成稿です。</p>
+                </div>
+            </div>
+            <div class="work-img">
+                <img src="assets/images/health_report-loginPC.webp" alt="アプリのPCログイン画像">
+                <img src="assets/images/health_report-reportPC.webp" alt="アプリのPC一覧画像">
+                <img src="assets/images/health_report-dateSP.webp" alt="アプリのスマホ入力画像">
+                <img src="assets/images/health_report-reportSP.webp" alt="アプリのスマホ一覧画像">
+            </div>
+        </section>
+
+        <div class="view-more-container detail-back">
+            <a href="works.html" class="view-more">← back to works</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 SAKI IIOKA. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="ページ上部へ戻る">
+        <img src="assets/images/totop.webp" alt="Topへ戻る">
+    </button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

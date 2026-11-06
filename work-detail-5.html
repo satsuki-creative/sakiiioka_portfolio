@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    
+    <!-- ogp -->
+    <meta property="og:url" content="https://dummy.co.jp">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SAKI IIOKA Portfolio Site">
+    <meta property="og:description" content="SAKIIIOKAのポートフォリオです。これまでに制作してきた実績を掲載しています。">
+    <meta property="og:site_name" content="SAKI IIOKA Portfolio">
+    <meta property="og:image" content="assets/images/MainVisual2.webp">    
+
+    <!-- favicon apple-touch-icon -->
+    <link rel="shortcut icon" href="assets/images/logo-min.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo-min.webp">
+    <link rel="icon" type="image/webp" href="https://dummy.co.jp/assets/images/logo-min.webp">
+        
+    <title>行先掲示板Webアプリ | SAKI IIOKA Portfolio</title>
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/destyle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="main-header" id="mainHeader">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html"><img src="assets/images/logo.webp" alt="ロゴ">SAKI IIOKA</a></div>
+            <nav class="desktop-nav">
+                <a href="index.html#home">Home</a>
+                <a href="works.html">Works</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <button class="menu-trigger" id="menuTrigger" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="index.html#home" class="menu-item">Home</a>
+            <a href="works.html" class="menu-item">Works</a>
+            <a href="index.html#about" class="menu-item">About</a>
+            <a href="index.html#contact" class="menu-item">Contact</a>
+        </div>
+    </nav>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main class="page-work-detail container">
+        <section class="work-hero">
+            <div class="work-hero__visual">
+                <img src="assets/images/Compass.webp" alt="SNS用広告バナーのメイン画像">
+            </div>
+            <div class="work-hero__info">
+                <p class="client-name">某IT企業</p>
+                <h1 class="work-title">営業部行先掲示板Compass</h1>
+                <p class="work-category">行先掲示板Webアプリ</p>
+                <p class="work-lead">PCとスマートフォンで閲覧・修正可能な、行先掲示板Webアプリの制作を受注をしました。</p>
+            
+                <div class="work-link-wrapper">
+                    <a href="https://heather.jobtra-itweb.com/Compass/index_pre.php" target="_blank" rel="noopener" class="btn-site">
+                        WEB APP
+                    </a>
+                    <p>ログイン用メールアドレス：kinoshita_yoshihiko@gmail.com<br>
+                    ログイン用パスワード：Kinoshita01#</p>
+                </div>    
+            </div>
+        </section>
+
+        <hr class="detail-divider">
+
+        <section class="work-section">
+
+            <div class="work-row">
+                <div class="work-label">
+                    制作範囲 <span class="label-en">Range</span>
+                </div>
+                <div class="work-content">
+                    <p>ヒアリング / デザイン / コーディング</p>
+                </div>
+            </div>
+            
+            <div class="work-row">
+                <div class="work-label">
+                    使用ツール <span class="label-en">Tool</span>
+                </div>
+                <div class="work-content">
+                    <p>Figma / VS Code (HTML / CSS / JS)</p>
+                </div>
+            </div>
+            
+            <div class="work-row">
+                <div class="work-label">
+                    制作期間 <span class="label-en">Period</span>
+                </div>
+                <div class="work-content">
+                    <p>2ヶ月間</p>
+                </div>
+            </div>     
+
+            <div class="work-row">
+                <div class="work-label">
+                    制作メンバー <span class="label-en">Member</span>
+                </div>
+                <div class="work-content">
+                    <p>2名</p>
+                </div>
+            </div>
+            
+            <div class="work-row">
+                <div class="work-label">
+                    サービス設定 <span class="label-en">Premise</span>
+                </div>
+                <div class="work-content">
+                    <ul class="bullet-list">
+                        <li>システム名「Compass」。</li>
+                        <li>セキュリティを考慮してメールアドレスとパスワードによる認証機能を搭載した社内用ツール。</li>
+                        <li>1テーブルのデータベース構成。</li>
+                        <li>時刻入力には「Flatpickr」ライブラリを採用し、正確かつスムーズな24時間表記の入力を可能。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    ターゲット <span class="label-en">Target</span>
+                </div>
+                <div class="work-content">
+                    <p>頻繁に外出が発生する営業部門の社員と、チームを管理する課長職<br>
+                    新卒からベテランまで幅広い層が利用</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    目的 <span class="label-en">Purpose</span>
+                </div>
+                <div class="work-content">
+                    <p>アナログな掲示板による連絡コストの削減と、情報共有の迅速化。<br>
+                    営業担当者が自ら更新でき、管理者がリアルタイムに状況を把握できる環境を整える。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    情報設計 <span class="label-en">Information</span>
+                </div>
+                <div class="work-content">
+                    <p>画面は「ログイン」「入力フォーム」「一覧表示」の3枚で構成。<br>
+                    登録項目は、担当者名、状況（出勤・外出・直帰・退勤）、要件、帰社時間。<br>
+                    一覧画面では当日分のみを表示し、編集ボタンから即座にデータを更新できるフロー。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    デザイン <span class="label-en">Design</span>
+                </div>
+                <div class="work-content">
+                    <p class="font-serif">「営業社員の今を可視化する」をコンセプトに、装飾を抑えた清潔感のあるビジネスデザインを採用。</p>
+                    
+                    <div class="color-palette">
+                        <div class="color-item" style="background-color: #F8F8F8; color: #333; flex: 2;">#F8F8F8</div>
+                        <div class="color-item" style="background-color: #333333; color: #fff; flex: 1; border: 1px solid #eee;">#333333</div>
+                        <div class="color-item" style="background-color: #007BFF; flex: 0.5;"></div>
+                    </div>
+
+                    <p>PC版は表形式で一覧性を高め、スマホ版はカード形式にするなど、デバイスに最適化したレスポンシブ設計。<br>
+                    移動中でも片手で操作できるユーザビリティを確保。</p>
+                </div>
+            </div>
+
+            <div class="work-row">
+                <div class="work-label">
+                    その他 <span class="label-en">Others</span>
+                </div>
+                <div class="work-content">
+                    <p>下に添付した画像は、PCとスマホのデザイン完成稿です。</p>
+                </div>
+            </div>
+            <div class="work-img">
+                <img src="assets/images/PCtop-active.webp" alt="アプリのPCログイン画像">
+                <img src="assets/images/PCfoam-active.webp" alt="アプリのPC入力画像">
+                <img src="assets/images/SPtop-active.webp" alt="アプリのスマホログイン画像">
+                <img src="assets/images/SPtable-active.webp" alt="アプリのスマホ一覧画像">
+            </div>
+        </section>
+
+        <div class="view-more-container detail-back">
+            <a href="works.html" class="view-more">← back to works</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 SAKI IIOKA. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="ページ上部へ戻る">
+        <img src="assets/images/totop.webp" alt="Topへ戻る">
+    </button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
